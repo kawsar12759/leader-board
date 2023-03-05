@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0px;
 }
 
 main {
@@ -190,6 +191,19 @@ hr {
 
 @media only screen and (max-width: 688px) {
 
+
+
+    header{
+        width: 115vw;
+    }
+
+    .icon-title{
+        padding-left: 2vw;
+    }
+    
+    .menu li{
+        margin-left: 3vw;
+    }
     .players,
     .blogs,
     .courses {
@@ -208,6 +222,7 @@ hr {
 
     .top-section {
         width: 100%;
+        margin:  21px auto;
     }
 
     .courses {
@@ -217,6 +232,16 @@ hr {
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
 
+    header{
+        width: 110vw;
+    }
+
+    .icon-title{
+        padding-left: 4vw;
+    }
+    .menu li{
+        margin-left: 8vw;
+    }
     .players, .blogs {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -243,6 +268,7 @@ hr {
 
     .top-section {
         width: 100%;
+        margin:  21px auto;
     }
 
     .courses {
