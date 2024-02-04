@@ -227,6 +227,15 @@ hr {
 
 
 @media only screen and (max-width:688px) {
+
+    .logo {
+        margin-left: 16px;
+    }
+
+    nav {
+        margin-right: 16px;
+    }
+
     .section-heading {
         text-align: center;
     }
@@ -271,9 +280,19 @@ hr {
         height: 100%;
     }
 
+
+
 }
 
 @media only screen and (min-width:689px) and (max-width:992px) {
+    .logo {
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-right: 20px;
+    }
+
     .section-heading {
         text-align: center;
     }
